@@ -1,11 +1,12 @@
 {
   "name": "seuton",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "SeuTon — sua música, seu tom, seu jeito de tocar.",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
