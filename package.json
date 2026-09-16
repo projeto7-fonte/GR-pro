@@ -1,6 +1,6 @@
 {
   "name": "seuton",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "SeuTon — sua música, seu tom, seu jeito de tocar.",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.57.4",
     "@vitejs/plugin-react": "latest",
     "vite": "latest",
     "typescript": "latest",
