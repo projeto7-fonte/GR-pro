@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, system-ui, -apple-system, sans-serif; background: #f7f7f5; color: #111; }
+.app { min-height: 100vh; display: grid; place-items: center; padding: 32px; }
+.hero { width: min(720px, 100%); text-align: center; }
+.brand-mark { width: 72px; height: 72px; margin: 0 auto 14px; display: grid; place-items: center; border: 3px solid #111; border-radius: 50%; font-size: 42px; font-weight: 900; font-style: italic; box-shadow: 5px 5px 0 #e2a11a; }
+.eyebrow { letter-spacing: .3em; font-weight: 800; margin: 0 0 24px; }
+h1 { font-size: clamp(48px, 10vw, 88px); line-height: .92; margin: 0; letter-spacing: -.06em; }
+h1 span { color: #d6920b; }
+.subtitle { font-size: 24px; margin: 18px 0 40px; }
+.search { background: white; border: 1px solid #ddd; border-radius: 18px; padding: 18px 22px; text-align: left; color: #777; box-shadow: 0 8px 30px rgba(0,0,0,.06); }
+.quick-actions { display: flex; justify-content: center; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+button { border: 0; border-radius: 14px; padding: 14px 20px; font-weight: 750; cursor: pointer; background: #111; color: white; }
+button + button { background: white; color: #111; border: 1px solid #ddd; }
